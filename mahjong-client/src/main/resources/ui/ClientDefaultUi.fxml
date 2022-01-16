@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.181" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.wxp.game.mahjong.client.ui.controller.ClientDefaultUiController">
+   <children>
+      <Button fx:id="startGame" onMouseClicked="#onStartGameClicked" layoutX="245.0" layoutY="177.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="97.0" text="启动游戏" />
+   </children>
+</AnchorPane>
